@@ -20,7 +20,7 @@ public class SelfIntroduction{
 		Thread.sleep(2000);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		System.err.println(driver.findElement(By.xpath("//p[@class='error']")).getText());
-		//driver.close();
+		driver.close();
 		
 	
 	}
